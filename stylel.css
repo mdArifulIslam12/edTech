@@ -1,0 +1,37 @@
+.header-img{
+    height: 550px;
+}
+
+.header-button{
+    border: none;
+}
+
+.register-join{
+    background-color: #289BDE;
+}
+.register-join .button{
+    color: #289BDE;
+}
+.compaines img{
+    width: 125px;
+}
+footer img{
+    
+   width: 38px; 
+   height: 38px;
+   margin-left: 10px;
+   background-color: #e5e0e0;
+   padding: 10px;
+   border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .header-img{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 988px) {
+    .compaines{        /* visibility: hidden; */
+        display: none;
+    }
+}
